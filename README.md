@@ -1,15 +1,15 @@
 # Pose-Detection-From-Vids
 To run the code in colab:
 - first install the dependencies: 
-    -!pip install mmcv-full
-    -!rm -rf mmdetection
-    -!git clone https://github.com/open-mmlab/mmdetection.git
-    -%cd mmdetection
-    -!pip install -e .
-    -!git clone https://github.com/open-mmlab/mmpose
-    -%cd mmpose
-    -!pip install -r requirements.txt
-    -!pip install -v -e .
+    - !pip install mmcv-full
+    - !rm -rf mmdetection
+    - !git clone https://github.com/open-mmlab/mmdetection.git
+    - %cd mmdetection
+    - !pip install -e .
+    - !git clone https://github.com/open-mmlab/mmpose
+    - %cd mmpose
+    - !pip install -r requirements.txt
+    - !pip install -v -e .
 
 - The upload the script file in session and run the script given in run command.txt
     

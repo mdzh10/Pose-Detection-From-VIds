@@ -199,9 +199,9 @@ def main():
                 os.path.join(args.out_video_root, 'combined_output.mp4'), fourcc, fps, size)
 
     v1 = vid_fps_duration_frames(vid1)
-    v2 = vid_fps_duration_frames(vid1)
-    v3 = vid_fps_duration_frames(vid1)
-    v4 = vid_fps_duration_frames(vid1)
+    v2 = vid_fps_duration_frames(vid2)
+    v3 = vid_fps_duration_frames(vid3)
+    v4 = vid_fps_duration_frames(vid4)
 
     # taking frame range from the largest video
     frames_range = max(v1[2], v2[2], v3[2], v4[2])
